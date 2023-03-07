@@ -184,7 +184,7 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-.title h2 {
+.title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -199,7 +199,7 @@ body {
   color: var(--color-NAVYBLU);
   letter-spacing: 0.02em;
 }
-.text-paragraph p {
+.text-paragraph {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
