@@ -8,9 +8,10 @@
   --color-background: #ffffff;
   --color-background-hero: #2e2f42;
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: var(--color-SLATE);
+  background-color: var(--color-background);
 }
 .list {
   list-style: none;
@@ -25,7 +26,7 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing:  0.03em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .text-logo-header {
@@ -40,17 +41,20 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.link a {
+  text-decoration: none;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--color-OCEAN);
   text-decoration: none;
+  font-style: normal;
 }
 
-.navigation-nav  .link {
+.navigation-nav .link {
   text-decoration: none;
   font-style: normal;
   color: var(--color-SLATE);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -81,13 +85,13 @@
 }
 .button {
   font-family: "Roboto", sans-serif;
- font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-cursor: var(--color-WHITE);
- border-radius: 4px;
-cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: var(--color-WHITE);
+  border-radius: 4px;
+  cursor: pointer;
 }
 .button:hover {
   background-color: var(--color-OCEAN);
@@ -100,7 +104,6 @@ cursor: pointer;
   line-height: 1.5;
   color: var(--color-WHITE);
   letter-spacing: 0.04em;
- 
 }
 .button-pageone {
   font-family: "Roboto", sans-serif;
@@ -120,27 +123,28 @@ cursor: pointer;
   border-radius: 4px;
   width: 116px;
   height: 48px;
-  letter-spacing: 0.04em;}
+  letter-spacing: 0.04em;
+}
 .button-pageone3 {
   background-color: var(--color-Cloud);
   border-radius: 4px;
   width: 78px;
-height: 48px;
-letter-spacing: 0.04em;
+  height: 48px;
+  letter-spacing: 0.04em;
 }
 .button-pageone4 {
   background-color: var(--color-Cloud);
   border-radius: 4px;
   width: 101px;
-height: 48px;
-letter-spacing: 0.04em;
+  height: 48px;
+  letter-spacing: 0.04em;
 }
 .button-pageone5 {
   background-color: var(--color-Cloud);
   border-radius: 4px;
   width: 126px;
-height: 48px;
-letter-spacing: 0.04em;
+  height: 48px;
+  letter-spacing: 0.04em;
 }
 
 .button-text-pageone {
@@ -155,7 +159,6 @@ letter-spacing: 0.04em;
 }
 .button-pageone:hover {
   background-color: var(--color-OCEAN);
-  
 }
 .work-title,
 .time-title {
@@ -167,7 +170,6 @@ letter-spacing: 0.04em;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-
 }
 /*щоб приховати заголовок використала hidden*/
 .visually-hidden {
@@ -182,7 +184,7 @@ letter-spacing: 0.04em;
   clip-path: inset(50%);
   margin: -1px;
 }
-.title h2{
+.title h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
