@@ -10,8 +10,7 @@
 }
 .body {
   font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  color: var(--color-NAVYBLU);
+  color: var(--color-SLATE);
   background-color: var(--color-background);
 }
 .list {
@@ -20,34 +19,42 @@
 /*Шапка сайту*/
 
 .logo {
+  text-decoration: none;
   color: var(--color-IRIS);
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
+  letter-spacing:  0.03em;
+  text-transform: uppercase;
 }
 .text-logo-header {
   color: var(--color-NAVYBLU);
 }
 .site-nav .link {
+  text-decoration: none;
   color: var(--color-NAVYBLU);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--color-OCEAN);
 }
 
-.navigation-nav .link {
+.navigation-nav  .link {
+  text-decoration: none;
+  font-style: normal;
   color: var(--color-SLATE);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .navigation-nav .link:hover,
 .navigation-nav .link:focus {
@@ -56,11 +63,13 @@
 
 /*Секції*/
 .hero-title {
+  text-align: center;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: var(--color-WHITE);
+  letter-spacing: 0.02em;
 }
 .background-hero-title {
   background-color: var(--color-background-hero);
@@ -70,16 +79,16 @@
   top: 98px;
 }
 .button {
-  width: 169px;
-  height: 56px;
-  left: 20px;
-  top: 20px;
-  background-color: var(--color-IRIS);
-  border-radius: 4px;
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: var(--color-WHITE);
+ border-radius: 4px;
+cursor: pointer;
 }
 .button:hover {
   background-color: var(--color-OCEAN);
-  cursor: pointer;
 }
 
 .button-text {
@@ -88,10 +97,13 @@
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-WHITE);
+  letter-spacing: 0.04em;
+ 
 }
 .button-pageone {
   background-color: var(--color-Cloud);
   border-radius: 4px;
+  cursor: pointer;
 }
 .button-pageone1 {
   background-color: var(--color-Cloud);
@@ -135,15 +147,19 @@ height: 48px;
 }
 .button-pageone:hover {
   background-color: var(--color-OCEAN);
-  cursor: pointer;
+  
 }
 .work-title,
 .time-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   color: var(--color-NAVYBLU);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+
 }
 /*щоб приховати заголовок використала hidden*/
 .visually-hidden {
@@ -164,6 +180,7 @@ height: 48px;
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-NAVYBLU);
+  letter-spacing: 0.02em;
 }
 .text-paragraph p {
   font-style: normal;
@@ -171,6 +188,7 @@ height: 48px;
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-SLATE);
+  letter-spacing: 0.02em;
 }
 /*footer*/
 .text-footer p {
