@@ -60,7 +60,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 
 }
 .navigation-nav .link:hover,
@@ -104,7 +103,7 @@ body {
   background-color: var(--color-OCEAN);
 }
 
-.button-pageone1{
+.button, .button-pageone1{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -173,7 +172,7 @@ body {
   cursor: pointer;
 }
 
-.button-pageone1:hover,
+.button:hover,.button-pageone1:hover,
 .button-pageone2:hover,
 .button-pageone3:hover,
 .button-pageone4:hover,
@@ -184,7 +183,8 @@ body {
 .button-pageone2:hover,
 .button-pageone3:hover,
 .button-pageone4:hover,
-.button-pageone5:hover {
+.button-pageone5:hover,
+.button:hover{
   background-color: var(--color-OCEAN);
 }
 .work-title,
