@@ -71,7 +71,10 @@ body {
   text-decoration: none;
   font-style: normal
 }
-
+.navigation-nav {
+  text-decoration: none;
+  font-style: normal
+}
 /*Секції*/
 .hero-title {
   text-align: center;
