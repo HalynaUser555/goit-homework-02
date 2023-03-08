@@ -44,13 +44,13 @@ body {
 }
 .link {
   text-decoration: none;
-  font-style: normal;
+ 
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--color-OCEAN);
   text-decoration: none;
-  font-style: normal;
+
 }
 
 .navigation-nav .link {
@@ -60,13 +60,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal
 
 }
 .navigation-nav .link:hover,
 .navigation-nav .link:focus {
   color: var(--color-OCEAN);
   text-decoration: none;
-  font-style: normal;
+ 
 }
 
 /*Секції*/
@@ -86,7 +87,7 @@ body {
   left: 162px;
   top: 98px;
 }
-.button {
+.button{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -101,9 +102,10 @@ body {
 }
 .button:hover {
   background-color: var(--color-OCEAN);
+ 
 }
 
-.button, .button-pageone1{
+.button-pageone1{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
