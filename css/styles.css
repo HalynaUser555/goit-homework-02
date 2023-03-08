@@ -68,6 +68,13 @@ body {
   text-decoration: none;
   font-style: normal
 }
+.navigation-nav .link:hover
+.navigation-nav.link:focus{
+  color: var(--color-OCEAN);
+  text-decoration: none;
+  font-style: normal
+}
+
 /*Секції*/
 .hero-title {
   text-align: center;
