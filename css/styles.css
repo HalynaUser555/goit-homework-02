@@ -53,18 +53,18 @@ body {
   font-style: normal;
 }
 
-.navigation-nav a.link {
+.navigation-nav .link {
   text-decoration: none;
-  font-style: normal;
   color: var(--color-SLATE);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 
 }
-.navigation-nav a.link:hover,
-.navigation-nav a.link:focus {
+.navigation-nav .link:hover,
+.navigation-nav .link:focus {
   color: var(--color-OCEAN);
   text-decoration: none;
   font-style: normal;
@@ -96,73 +96,95 @@ body {
   cursor: var(--color-WHITE);
   border-radius: 4px;
   cursor: pointer;
+  color: var(--color-WHITE);
+  background-color:var(--color-IRIS);
 
 }
 .button:hover {
   background-color: var(--color-OCEAN);
 }
 
-.button-text {
-  font-style: normal;
+.button-pageone1{
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--color-WHITE);
   letter-spacing: 0.04em;
-}
-.button-pageone{
-  font-family: "Roboto", sans-serif;
-  background-color: var(--color-Cloud);
+  cursor: var(--color-WHITE);
   border-radius: 4px;
   cursor: pointer;
-}
-.button-pageone1 {
+  color: var(--color-IRIS);
   background-color: var(--color-Cloud);
-  border-radius: 4px;
-  width: 69px;
-  height: 48px;
-  letter-spacing: 0.04em;
-}
-.button-pageone2 {
-  background-color: var(--color-Cloud);
-  border-radius: 4px;
-  width: 116px;
-  height: 48px;
-  letter-spacing: 0.04em;
-}
-.button-pageone3 {
-  background-color: var(--color-Cloud);
-  border-radius: 4px;
-  width: 78px;
-  height: 48px;
-  letter-spacing: 0.04em;
-}
-.button-pageone4 {
-  background-color: var(--color-Cloud);
-  border-radius: 4px;
-  width: 101px;
-  height: 48px;
-  letter-spacing: 0.04em;
-}
-.button-pageone5 {
-  background-color: var(--color-Cloud);
-  border-radius: 4px;
-  width: 126px;
-  height: 48px;
-  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
-.button-text-pageone {
-  font-style: normal;
-  font-weight: 500;
+.button-pageone2 {
+  font-family: "Roboto", sans-serif;
+  width: 116px;
   font-size: 16px;
+  height: 48px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: var(--color-WHITE);
+  border-radius: 4px;
+  cursor: pointer;
   color: var(--color-IRIS);
+  background-color: var(--color-Cloud);
+  cursor: pointer;
+  
 }
-.button-text-pageone:hover {
+.button-pageone3 {
+  font-family: "Roboto", sans-serif;
+  width: 78px;
+  height: 48px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  cursor: var(--color-WHITE);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--color-IRIS);
+  background-color: var(--color-Cloud);
+  cursor: pointer;
+}
+.button-pageone4 {
+  font-family: "Roboto", sans-serif;
+  width: 101px;
+  height: 48px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  cursor: var(--color-WHITE);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--color-IRIS);
+  background-color: var(--color-Cloud);
+  cursor: pointer;
+}
+.button-pageone5 {
+  font-family: "Roboto", sans-serif;
+  width: 126px;
+  height: 48px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  cursor: var(--color-WHITE);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--color-IRIS);
+  background-color: var(--color-Cloud);
+  cursor: pointer;
+}
+
+.button-pageone1:hover,
+.button-pageone2:hover,
+.button-pageone3:hover,
+.button-pageone4:hover,
+.button-pageone5:hover{
   color: var(--color-WHITE);
 }
-.button-pageone:hover {
+.button-pageone1:hover,
+.button-pageone2:hover,
+.button-pageone3:hover,
+.button-pageone4:hover,
+.button-pageone5:hover {
   background-color: var(--color-OCEAN);
 }
 .work-title,
