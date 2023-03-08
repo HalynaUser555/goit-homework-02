@@ -68,7 +68,7 @@ body {
   text-decoration: none;
   font-style: normal
 }
-.navigation-nav .link:hover
+.navigation-nav.link:hover,
 .navigation-nav.link:focus{
   color: var(--color-OCEAN);
   text-decoration: none;
