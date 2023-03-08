@@ -44,12 +44,14 @@ body {
 }
 .link {
   text-decoration: none;
+  font-style: normal
  
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--color-OCEAN);
   text-decoration: none;
+  font-style: normal
 
 }
 
@@ -67,7 +69,7 @@ body {
 .navigation-nav .link:focus {
   color: var(--color-OCEAN);
   text-decoration: none;
- 
+  font-style: normal
 }
 
 /*Секції*/
@@ -87,7 +89,7 @@ body {
   left: 162px;
   top: 98px;
 }
-.button{
+.hero-button{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -100,12 +102,11 @@ body {
   background-color:var(--color-IRIS);
 
 }
-.button:hover {
+.hero-button:hover {
   background-color: var(--color-OCEAN);
  
 }
-
-.button-pageone1{
+.button{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -174,19 +175,19 @@ body {
   cursor: pointer;
 }
 
-.button:hover,.button-pageone1:hover,
+.button:hover,
 .button-pageone2:hover,
 .button-pageone3:hover,
 .button-pageone4:hover,
 .button-pageone5:hover{
   color: var(--color-WHITE);
 }
-.button-pageone1:hover,
+.button:hover,
 .button-pageone2:hover,
 .button-pageone3:hover,
 .button-pageone4:hover,
-.button-pageone5:hover,
-.button:hover{
+.button-pageone5:hover
+{
   background-color: var(--color-OCEAN);
 }
 .work-title,
