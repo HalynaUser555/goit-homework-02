@@ -64,6 +64,7 @@ body {
 .navigation-nav .link:focus {
   color: var(--color-OCEAN);
   text-decoration: none;
+  font-style: normal;
 }
 
 /*Секції*/
@@ -92,6 +93,7 @@ body {
   cursor: var(--color-WHITE);
   border-radius: 4px;
   cursor: pointer;
+  
 }
 .button:hover {
   background-color: var(--color-OCEAN);
@@ -171,19 +173,7 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
-/*щоб приховати заголовок використала hidden*/
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
+
 .title {
   font-weight: 500;
   font-size: 20px;
