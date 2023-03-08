@@ -43,6 +43,7 @@ body {
 }
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -59,6 +60,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
 }
 .navigation-nav .link:hover,
 .navigation-nav .link:focus {
