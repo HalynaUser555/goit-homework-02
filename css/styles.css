@@ -63,15 +63,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal
-
 }
-.navigation-nav .link:hover,
-.navigation-nav .link:focus {
-  color: var(--color-OCEAN);
+.navigation-nav{
   text-decoration: none;
   font-style: normal
 }
-
 /*Секції*/
 .hero-title {
   text-align: center;
