@@ -52,7 +52,7 @@ body {
   font-style: normal;
 }
 
-.navigation-nav .link {
+.navigation-nav a.link {
   text-decoration: none;
   font-style: normal;
   color: var(--color-SLATE);
@@ -62,8 +62,8 @@ body {
   letter-spacing: 0.02em;
 
 }
-.navigation-nav .link:hover,
-.navigation-nav .link:focus {
+.navigation-nav a.link:hover,
+.navigation-nav a.link:focus {
   color: var(--color-OCEAN);
   text-decoration: none;
   font-style: normal;
@@ -86,7 +86,7 @@ body {
   left: 162px;
   top: 98px;
 }
-.button {
+.hero-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
