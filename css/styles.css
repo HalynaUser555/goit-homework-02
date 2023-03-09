@@ -211,11 +211,18 @@ body {
 .title {
   letter-spacing: 0.02em;
   color: var(--color-NAVYBLU);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2
 }
 .subtitles {
   font-style: normal;
   color: var(--color-NAVYBLU);
   letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em
 }
 .text-paragraph {
   font-style: normal;
