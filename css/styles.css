@@ -26,6 +26,10 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17
+
 }
 .text-logo-header {
   color: var(--color-NAVYBLU);
@@ -35,6 +39,9 @@ body {
   color: var(--color-NAVYBLU);
   font-style: normal;
   letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
 }
 .link {
   text-decoration: none;
@@ -53,7 +60,10 @@ body {
   text-decoration: none;
   color: var(--color-SLATE);
   letter-spacing: 0.02em;
-  font-style: normal
+  font-style: normal;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .navigation-nav .link:hover,
@@ -72,6 +82,10 @@ body {
   font-style: normal;
   color: var(--color-WHITE);
   letter-spacing: 0.02em;
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 700;
+
 }
 .background-hero-title {
   background-color: var(--color-background-hero);
@@ -187,6 +201,11 @@ body {
   text-transform: capitalize;
   text-align: center;
   background-color: var(--color-WHITE);
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em
+
 }
 
 .title {
@@ -202,6 +221,8 @@ body {
   font-style: normal;
   color: var(--color-SLATE);
   letter-spacing: 0.02em;
+  line-height: 1.5
+
 }
 /*footer*/
 .text-footer p {
