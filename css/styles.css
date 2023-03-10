@@ -173,13 +173,7 @@ body {
   cursor: pointer;
 }
 
-.button:hover,
-.button-pageone2:hover,
-.button-pageone3:hover,
-.button-pageone4:hover,
-.button-pageone5:hover{
-  color: var(--color-WHITE);
-}
+
 .button:hover,
 .button-pageone2:hover,
 .button-pageone3:hover,
@@ -189,9 +183,16 @@ body {
 .button-pageone2:focus,
 .button-pageone3:focus,
 .button-pageone4:focus,
-.button-pageone5:focus
+.button-pageone5:focus  
 {
   background-color: var(--color-OCEAN);
+  color: var(--color-WHITE)   
+}
+.time {
+  background-color: var(--color-Cloud);
+}
+.images{
+  background-color: var(--color-WHITE);
 }
 .work-title,
 .time-title {
@@ -201,10 +202,11 @@ body {
   text-transform: capitalize;
   text-align: center;
   background-color: var(--color-WHITE);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
+  background-color: var(--color-Cloud);
 
 }
 
@@ -229,11 +231,12 @@ body {
   color: var(--color-SLATE);
   letter-spacing: 0.02em;
   line-height: 1.5;
-  font-size: 16px
+  font-size: 16px;
+  font-weight: 400;
 
 }
 /*footer*/
-.text-footer p {
+.text-footer {
   font-style: normal;
   color: var(--color-Cloud);
   font-weight: 400;
